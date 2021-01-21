@@ -1,3 +1,7 @@
 2021-01-21
 IndentationError: unindent does not match any outer indentation level
 탭이랑 스페이스 혼용하면 이 에러뜰 수 있음.
+
+2021-01-22
+TypeError: type str doesn't define __round__ method
+함수 내에서 처리 할 수 없는 자료형 넣었을때

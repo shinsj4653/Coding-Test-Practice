@@ -1,0 +1,5 @@
+y, m, d = input().split('.')
+y = y.zfill(4)
+m = m.zfill(2)
+d = d.zfill(2)
+print(d+'-'+m+'-'+y)
