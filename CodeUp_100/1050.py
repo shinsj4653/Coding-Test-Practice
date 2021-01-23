@@ -1,0 +1,5 @@
+a, b = input().split()
+n1 = int(a)
+n2 = int(b)
+if n1 == n2 : print(1) 
+else : print(0)

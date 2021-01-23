@@ -5,3 +5,8 @@ IndentationError: unindent does not match any outer indentation level
 2021-01-22
 TypeError: type str doesn't define __round__ method
 함수 내에서 처리 할 수 없는 자료형 넣었을때
+
+2021-01-23
+#n, m = int(input().split())
+#int() argument must be a string, a bytes-like object or a number, not 'list'
+#위에 주석 처럼 하면 input().split()은 list형이므로 오류남.
