@@ -1,3 +1,4 @@
 #대문자, 소문자 -> .upper(), .lower()
-n = input()
-print(str(format(int(n),'x')).upper())
+n = int(input())
+print('%X' %n)
+#10진수를 16진수로

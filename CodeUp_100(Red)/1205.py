@@ -1,0 +1,12 @@
+a, b = map(float, input().split())
+l = []
+l.append(a + b)
+l.append(a - b)
+l.append(b - a)
+l.append(a * b)
+l.append(a / b)
+l.append(b / a)
+l.append(a ** b)
+l.append(b ** a)
+l.sort(reverse=True)
+print(format(l[0], ".6f"))

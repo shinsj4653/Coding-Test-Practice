@@ -7,3 +7,4 @@ for i in range(len(word)):
 word = input()
 for w in word:
     print("'"+w+"'")
+#문자열에서 각 문자 접근할 때, 인덱싱 필요x

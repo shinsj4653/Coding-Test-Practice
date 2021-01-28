@@ -17,6 +17,8 @@
 # for i in range(19) : 
 #     print(baduk[i])
 
+
+#리스트인덱싱사용할땐, 반드시 '리스트 이름'!! 까먹지 않기
 baduk = []
 
 for i in range(19) : 
@@ -40,4 +42,3 @@ for i in range(19) :
         print(baduk[i][j],end = " ")
     print()
 
-        
