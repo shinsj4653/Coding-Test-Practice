@@ -10,3 +10,6 @@ TypeError: type str doesn't define __round__ method
 #n, m = int(input().split())
 #int() argument must be a string, a bytes-like object or a number, not 'list'
 #위에 주석 처럼 하면 input().split()은 list형이므로 오류남.
+
+2021-01-30
+TypeError: append() takes exactly one argument (3 given)
