@@ -13,3 +13,11 @@ TypeError: type str doesn't define __round__ method
 
 2021-01-30
 TypeError: append() takes exactly one argument (3 given)
+
+2021-02-03
+TypeError: 'str' object does not support item assignment
+
+s = hello
+s[0] = H -> 문자열은 변경 불가
+하지만 + 연산과 슬라이싱으로 변경가능
+s = 'H' + s[0:]
