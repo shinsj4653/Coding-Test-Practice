@@ -14,7 +14,7 @@ for i in range(0, n - 1) :
         if a[min_index] > a[j] :
             min_index = j
 
-    a[min_index] , a[j] = a[j], a[min_index]
+    a[min_index] , a[i] = a[i], a[min_index]
     
 for i in range(n) :
     print(a[i])
