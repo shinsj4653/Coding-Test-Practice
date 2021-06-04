@@ -26,3 +26,8 @@ s = 'H' + s[0:]
 2021-02-05
 RecursionError: maximum recursion depth exceeded in comparison
 파이썬에서는 재귀를 무한정 허용해서 벌어질 문제들을 고려하여 재귀호출을 1000번으로 제한하고 있다.
+
+2021-05-14
+TypeError: 'list' object is not callable
+map변수는 리스트형 키워드이므로, 부를수없다.
+함수명이나 키워드로 쓰이는 변수이름은 사용하지 말기
