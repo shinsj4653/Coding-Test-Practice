@@ -31,3 +31,20 @@ RecursionError: maximum recursion depth exceeded in comparison
 TypeError: 'list' object is not callable
 map변수는 리스트형 키워드이므로, 부를수없다.
 함수명이나 키워드로 쓰이는 변수이름은 사용하지 말기
+
+
+2021-06-12
+UnboundLocalError: local variable 'x' referenced before assignment
+
+
+x = 10
+ 
+def func():
+    global x
+    x += 1
+    print(x)
+ 
+func()
+
+
+전역변수를 지역범위에서 사용하고 싶다면 지역 영역에서 global표현 사용
