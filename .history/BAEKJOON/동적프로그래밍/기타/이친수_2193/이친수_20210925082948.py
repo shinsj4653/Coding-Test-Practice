@@ -18,7 +18,7 @@ d0[3] = 3
 
 
 for i in range(4, n + 1):
-    d0[i] = d0[i - 1] + d1[i - 1]
     d1[i] = d0[i - 1]
+    d0[i] = d0[i - 1] + d1[i - 1]
 
 print(d1[n])
